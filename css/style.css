@@ -793,5 +793,8 @@ body {
   .small_sm_none {
     display: none;
   }
+  .hero_area .main_menu .nav-item .nav-link {
+    margin-left: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -26,6 +26,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+
+
+
+
+
 /* Hero area css start */
 .hero_area{
     background: url('../img/hero-bg.png');
@@ -742,6 +747,10 @@ body{
     }
     .small_sm_none{
         display: none;
+    }
+
+    .hero_area .main_menu .nav-item .nav-link{
+        margin-left: 0;
     }
 
 }
