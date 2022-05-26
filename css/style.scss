@@ -408,13 +408,21 @@ body{
 /* Faq page code start */
 .offcanvas_btn{
     color: #313131;
+    display: none;
 }
 .faq_main_menu{
     a{
         font-size: 35px;
         color: #313131;
+        margin-top: 20px;
         &:hover{
             color: #117D7D;
+        }
+    }
+    .faqpage_menu{
+        padding-top: 5px;
+        a{
+            font-size: 16px;
         }
     }
 }
@@ -492,6 +500,16 @@ body{
 }
 
 
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #29908d;
+}
+
+.accordion-button:focus {
+    border: none!important;
+    box-shadow: none!important;
+}
+
 
 /* Responsive Design */
 @media(max-width: 1400px) {
@@ -521,6 +539,7 @@ body{
     #feedback_area .fi_right h5{
         margin-top: 50px;
     }
+    
 }
 
 @media(max-width: 768px) {
@@ -573,6 +592,16 @@ body{
     }
     .fcb_item {
         margin-bottom: 30px;
+    }
+
+    .offcanvas_btn{
+        display: block;
+    }
+    .faqpage_menu{
+        display: none;
+    }
+    .faqfooter{
+        display: none;
     }
 }
 .small_sm_block{
