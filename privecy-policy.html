@@ -417,8 +417,16 @@ In the event any personal data processing needs to be subcontracted to a third p
                   </div>
                </div>
             </div>
+            <div class="payment_gateway mt-4">
+               <img src="img/payment-gateway.png" alt="" class="img-fluid">
+            </div>
          </div>
       </div>
+
+      <button type="button" class="backtotopbtn" id="btn-back-to-top">
+         <img src="img/toparrow.png" alt="">
+       </button>
+
       <div class="footer_credit">
          <div class="container">
             <div class="row">
@@ -479,6 +487,32 @@ In the event any personal data processing needs to be subcontracted to a third p
           }
         });
       });
+
+
+      let mybutton = document.getElementById("btn-back-to-top");
+
+         // When the user scrolls down 20px from the top of the document, show the button
+         window.onscroll = function () {
+         scrollFunction();
+         };
+
+         function scrollFunction() {
+         if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+         ) {
+            mybutton.style.display = "block";
+         } else {
+            mybutton.style.display = "none";
+         }
+         }
+         // When the user clicks on the button, scroll to the top of the document
+         mybutton.addEventListener("click", backToTop);
+
+         function backToTop() {
+         document.body.scrollTop = 0;
+         document.documentElement.scrollTop = 0;
+         }
     </script>
   </body>
 </html>

@@ -612,6 +612,18 @@ body {
   border: 1px solid #157E7D;
 }
 
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background: transparent;
+}
+
+#btn-back-to-top img {
+  height: 40px;
+}
+
 /* Responsive Design */
 @media (max-width: 1400px) {
   .hero_area {
