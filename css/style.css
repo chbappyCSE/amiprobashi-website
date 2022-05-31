@@ -36,7 +36,7 @@ body {
 .hero_area {
   background: url("../img/hero-bg.png");
   background-repeat: no-repeat;
-  height: 75vh;
+  height: 70vh;
 }
 
 .hero_area .main_menu .nav-item .nav-link {
@@ -625,7 +625,7 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 1400px) {
+@media (max-width: 1600px) {
   .hero_area {
     height: 100vh;
     background-size: contain;
