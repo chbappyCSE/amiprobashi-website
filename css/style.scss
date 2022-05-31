@@ -35,7 +35,8 @@ body{
 .hero_area{
     background: url('../img/hero-bg.png');
     background-repeat: no-repeat;
-    height: 70vh;
+    // height: 70vh;
+    margin-bottom: 50px;
     
     .main_menu{
         .nav-item{
@@ -182,6 +183,10 @@ body{
                 color: #2D2D2D;
             }
         }
+    }
+
+    .owl-theme .owl-dots{
+        margin: 0!important;
     }
 
     .signin_button{
@@ -333,10 +338,13 @@ body{
 /* Feedback end */
 #footer_area{
     .footer_content{
-        padding: 30px 0;
+        padding: 10px 0 5px;
         background: #E1F0E9;
-        .fc_top{
-            border-bottom: 1px solid #fff;
+        p{
+            margin-bottom: 0;
+        }
+        .right_border{
+            border-right: 1.5px solid #fff;
         }
         .fc_top p{
             font-weight: 600;
@@ -390,13 +398,16 @@ body{
         }
     }
     .footer_credit{
-        padding: 15px 0 0;
+        padding: 10px 0;
         background: #117D7C;
         color: #fff;
+        p{
+            margin-bottom: 0;
+        }
         a{
             color: #fff;
             &:hover{
-                color: #232323;
+                color: #E1F0E9;
             }
         }
     }
@@ -555,6 +566,12 @@ body{
     }
 }
 
+.portal_p{
+    font-weight: 600;
+    margin-bottom: 0px;
+    font-size: 20px;
+    line-height: 2;
+}
 
 
 #btn-back-to-top {
@@ -571,11 +588,11 @@ body{
 /* Responsive Design */
 @media(max-width: 1600px) {
     .hero_area{
-        height: 100vh;
+        height: auto;
         background-size: contain;
     }
     .about_area{
-        padding-top: 60px;
+        padding-top: 0px;
         .about_right{
             padding-top: 20px;
             p{
@@ -590,7 +607,7 @@ body{
                 p{
                     font-size: 16px;
                 }
-            }
+            } 
         }
     }
     #feedback_area .fi_right h5{
@@ -690,6 +707,7 @@ body{
 @media(max-width: 576px) {
     .hero_area{
         height: auto;
+        margin-bottom: 0;
     }
     .about_left {
         margin-top: 30px;
@@ -701,13 +719,13 @@ body{
         margin-top: 0px;
     }
     .hero_area .hero_content_left .app_btn img {
-        height: 27px;
+        height: 40px;
     }
     .hero_area .hero_content_left .app_btn {
         margin-top: 15px;
     }
     .hero_content_right img {
-        margin-top: -30px;
+        margin-top: 15px;
     }
     .about_area {
         padding-top: 0px;

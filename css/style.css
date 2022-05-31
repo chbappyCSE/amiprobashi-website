@@ -36,7 +36,7 @@ body {
 .hero_area {
   background: url("../img/hero-bg.png");
   background-repeat: no-repeat;
-  height: 70vh;
+  margin-bottom: 50px;
 }
 
 .hero_area .main_menu .nav-item .nav-link {
@@ -199,6 +199,10 @@ body {
   line-height: 33px;
   text-align: justify;
   color: #2D2D2D;
+}
+
+#content_component_area .owl-theme .owl-dots {
+  margin: 0 !important;
 }
 
 #content_component_area .signin_button {
@@ -374,12 +378,16 @@ body {
 
 /* Feedback end */
 #footer_area .footer_content {
-  padding: 30px 0;
+  padding: 10px 0 5px;
   background: #E1F0E9;
 }
 
-#footer_area .footer_content .fc_top {
-  border-bottom: 1px solid #fff;
+#footer_area .footer_content p {
+  margin-bottom: 0;
+}
+
+#footer_area .footer_content .right_border {
+  border-right: 1.5px solid #fff;
 }
 
 #footer_area .footer_content .fc_top p {
@@ -440,9 +448,13 @@ body {
 }
 
 #footer_area .footer_credit {
-  padding: 15px 0 0;
+  padding: 10px 0;
   background: #117D7C;
   color: #fff;
+}
+
+#footer_area .footer_credit p {
+  margin-bottom: 0;
 }
 
 #footer_area .footer_credit a {
@@ -450,7 +462,7 @@ body {
 }
 
 #footer_area .footer_credit a:hover {
-  color: #232323;
+  color: #E1F0E9;
 }
 
 /* Faq page code start */
@@ -612,6 +624,13 @@ body {
   border: 1px solid #157E7D;
 }
 
+.portal_p {
+  font-weight: 600;
+  margin-bottom: 0px;
+  font-size: 20px;
+  line-height: 2;
+}
+
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
@@ -627,11 +646,11 @@ body {
 /* Responsive Design */
 @media (max-width: 1600px) {
   .hero_area {
-    height: 100vh;
+    height: auto;
     background-size: contain;
   }
   .about_area {
-    padding-top: 60px;
+    padding-top: 0px;
   }
   .about_area .about_right {
     padding-top: 20px;
@@ -741,6 +760,7 @@ body {
 @media (max-width: 576px) {
   .hero_area {
     height: auto;
+    margin-bottom: 0;
   }
   .about_left {
     margin-top: 30px;
@@ -752,13 +772,13 @@ body {
     margin-top: 0px;
   }
   .hero_area .hero_content_left .app_btn img {
-    height: 27px;
+    height: 40px;
   }
   .hero_area .hero_content_left .app_btn {
     margin-top: 15px;
   }
   .hero_content_right img {
-    margin-top: -30px;
+    margin-top: 15px;
   }
   .about_area {
     padding-top: 0px;
