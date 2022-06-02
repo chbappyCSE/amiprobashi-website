@@ -338,7 +338,7 @@ body{
 /* Feedback end */
 #footer_area{
     .footer_content{
-        padding: 10px 0 5px;
+        padding: 25px 0 10px;
         background: #E1F0E9;
         p{
             margin-bottom: 0;
@@ -584,6 +584,11 @@ body{
         height: 40px;
     }
 }
+.tcfooter{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
 /* Responsive Design */
 @media(max-width: 1600px) {
@@ -698,6 +703,9 @@ body{
     }
     #signup {
         padding-top: 0px;
+    }
+    .tcfooter{
+        position: relative;
     }
 }
 .small_sm_block{
