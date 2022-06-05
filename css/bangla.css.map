@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,qDAAI;AACZ,AAAA,IAAI,CAAA;EACA,WAAW,EAAE,2CAA2C;CAC3D;;AACD,AAAA,IAAI,CAAA;EACA,SAAS,EAAE,IAAI,CAAA,UAAU;CAC5B",
+    "sources": [
+        "bangla.scss"
+    ],
+    "names": [],
+    "file": "bangla.css"
+}
