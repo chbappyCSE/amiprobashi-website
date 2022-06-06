@@ -26,11 +26,6 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-
-
-
-
-
 /* Hero area css start */
 .hero_area{
     background: url('../img/hero-bg.png');
@@ -338,7 +333,7 @@ body{
 /* Feedback end */
 #footer_area{
     .footer_content{
-        padding: 25px 0 10px;
+        padding: 5px 0 10px;
         background: #E1F0E9;
         p{
             margin-bottom: 0;
@@ -347,8 +342,8 @@ body{
             border-right: 1.5px solid #fff;
         }
         .fc_top p{
-            font-weight: 600;
-            font-size: 16px;
+            font-weight: 400;
+            font-size: 14px;
             line-height: 25px;
             letter-spacing: -0.02em;
             color: #232323;
@@ -375,8 +370,8 @@ body{
                 margin-bottom: 12px;
             }
             .number{
-                font-weight: 600;
-                font-size: 16px;
+                font-weight: 400;
+                font-size: 14px;
                 line-height: 22px;                
                 color: #232323;
                 &:hover{
@@ -384,8 +379,8 @@ body{
                 }
             }
             .email{
-                font-weight: 600;
-                font-size: 16px;
+                font-weight: 400;
+                font-size: 14px;
                 line-height: 22px;                
                 color: #232323;
                 &:hover{
@@ -589,7 +584,9 @@ body{
     bottom: 0;
     width: 100%;
 }
-
+.pt_30{
+    padding-top: 35px;
+}
 /* Responsive Design */
 @media(max-width: 1600px) {
     .hero_area{
@@ -617,6 +614,10 @@ body{
     }
     #feedback_area .fi_right h5{
         margin-top: 50px;
+    }
+
+    #app_features .app_item{
+        height: 400px;
     }
     
 }
@@ -895,6 +896,10 @@ body{
 
     .hero_area .main_menu .nav-item .nav-link{
         margin-left: 0;
+    }
+
+    #app_features .app_item{
+        height: auto;
     }
 
 }

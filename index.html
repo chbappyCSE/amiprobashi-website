@@ -40,7 +40,7 @@
                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle" href="index-bn.html#about" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           <a class="nav-link dropdown-toggle" href="index.html#about" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                            About
                            </a>
                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -163,7 +163,7 @@
                      <h2>About Us</h2>
                      <p>Ami Probashi is a Government approved Mobile App and Web Portal that assists aspiring Bangladeshi migrants in gaining employment abroad by engaging all the stakeholders. Users can complete mandatory government processes from the comfort of their homes and avoid middlemen, save cost, and gain autonomy within the migration process. 
                         <br><br>
-                        The Ami Probashi Recruitment Management System (A-RMS) makes government processes faster and easier to complete for Recruiting agents and foreign employers via digital completion of attestation, candidate selection, Pre-departure Orientation (PDO) booking, Bureau of Manpower, Employment and Training(BMET) clearance, and digital smart card issuance. 
+                        The Ami Probashi Recruitment Management System (A-RMS) makes government processes faster and easier to complete for Recruiting agents and foreign employers via digital completion of attestation, candidate selection, Pre-departure Orientation (PDO) booking, Bureau of Manpower, Employment and Training (BMET) clearance, and digital smart card issuance. 
                      </p>
                   </div>
                </div>
@@ -212,6 +212,9 @@
                </div> -->
                <div class="item">
                   <img src="img/app-ui/recruiting-agencies.png" alt="" class="img-fluid">
+               </div>
+               <div class="item">
+                  <img src="img/brac.png" alt="" class="img-fluid">
                </div>
             </div>
          </div>
@@ -524,7 +527,7 @@
                   <div class="app_item">
                      <img class="ex_padding" src="img/brac-portal.png" alt="">
                      <h3>BRAC Services</h3>
-                     <p>Users can apply to jobs and enroll into training sessions offered by BRAC. They can also register for BRAC Migration Program for returnee migrants. (Coming Soon)</p>
+                     <p>Users can apply to jobs and enroll into training sessions offered by BRAC. They can also register for BRAC Migration Program for returnee migrants. (Coming soon)</p>
                   </div>
                </div>
             </div>
@@ -659,7 +662,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-md-3 right_border">
+                     <div class="col-md-3 right_border pt_30">
                         <div class="fcb_item">
                            <h4>Contact Us</h4>
                            <div class="d-flex align-items-center">
@@ -692,7 +695,7 @@
                            </div>
                         </div> -->
                      </div>
-                     <div class="col-md-2 right_border">
+                     <div class="col-md-2 right_border pt_30">
                         <div class="fcb_item ">
                            <h4>Follow Us</h4>
                            <div class="d-flex align-items-center">
@@ -702,7 +705,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-md-3">
+                     <div class="col-md-3 pt_30">
                         <div class="fcb_item">
                            <h4>Download Now</h4>
                            <div class="icon d-flex">
@@ -773,7 +776,7 @@
                   <div class="col-md-6">
                      <div class="tcpp_menu text-md-end text-start">
                         <a class="me-3" href="terms-of-services.html">Terms & Conditions</a>
-                        <a class="me-3" href="privecy-policy.html">Privacy Policy</a>
+                        <a class="me-3" href="privacy-policy.html">Privacy Policy</a>
                         <a href="refund-policy.html">Refund Policy</a>
                      </div>
                   </div>
@@ -789,6 +792,8 @@
            $(".service_item").owlCarousel({
              loop: true,
              item: 3,
+             autoplay:true,
+             autoplayTimeout:3000,
              dots: true,
              nav: true,
              responsive: {
@@ -807,6 +812,8 @@
            $(".feedback_items").owlCarousel({
              loop: true,
              item: 1,
+             autoplay:true,
+             autoplayTimeout:3000,
              dots: true,
              nav: true,
              responsive: {
@@ -824,6 +831,8 @@
            $(".ccaio_carosule").owlCarousel({
              loop: true,
              item: 1,
+             autoplay:true,
+             autoplayTimeout:3000,
              dots: true,
              nav: false,
              responsive: {

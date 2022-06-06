@@ -378,7 +378,7 @@ body {
 
 /* Feedback end */
 #footer_area .footer_content {
-  padding: 25px 0 10px;
+  padding: 5px 0 10px;
   background: #E1F0E9;
 }
 
@@ -391,8 +391,8 @@ body {
 }
 
 #footer_area .footer_content .fc_top p {
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 25px;
   letter-spacing: -0.02em;
   color: #232323;
@@ -422,8 +422,8 @@ body {
 }
 
 #footer_area .footer_content .fcb_item .number {
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 22px;
   color: #232323;
 }
@@ -433,8 +433,8 @@ body {
 }
 
 #footer_area .footer_content .fcb_item .email {
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 22px;
   color: #232323;
 }
@@ -649,6 +649,10 @@ body {
   width: 100%;
 }
 
+.pt_30 {
+  padding-top: 35px;
+}
+
 /* Responsive Design */
 @media (max-width: 1600px) {
   .hero_area {
@@ -672,6 +676,9 @@ body {
   }
   #feedback_area .fi_right h5 {
     margin-top: 50px;
+  }
+  #app_features .app_item {
+    height: 400px;
   }
 }
 
@@ -943,6 +950,9 @@ body {
   }
   .hero_area .main_menu .nav-item .nav-link {
     margin-left: 0;
+  }
+  #app_features .app_item {
+    height: auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
