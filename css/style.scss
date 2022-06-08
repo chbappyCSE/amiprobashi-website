@@ -223,6 +223,7 @@ body{
         border-radius: 20px;
         margin-bottom: 30px;
         transition: .3s;
+        height: 400px;
         &:hover{
             background: #F1F8F2;
         }
@@ -587,6 +588,12 @@ body{
 .pt_30{
     padding-top: 35px;
 }
+
+.fixed_footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
 /* Responsive Design */
 @media(max-width: 1600px) {
     .hero_area{
@@ -618,6 +625,9 @@ body{
 
     #app_features .app_item{
         height: 400px;
+    }
+    .fixed_footer{
+        position: relative;
     }
     
 }
@@ -901,5 +911,54 @@ body{
     #app_features .app_item{
         height: auto;
     }
-
+    .text_small_justify{
+        text-align: justify!important;
+        font-size: 14px!important;
+    }
+    .about_area .about_right h2{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align-last: left;
+        margin-bottom: 0;
+    }
+    .service_area .service_title h2, .cca_item_one .ccaio_left h2, .small_sm_block, .signup_heading h2{
+        font-size: 18px!important;
+        font-weight: 600!important;
+        line-height: 24px!important;
+        text-align-last: left!important;
+    }
+    .portal_p {
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    #signup ul li {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .app_heading h2{
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        line-height: 24px !important;
+        text-align-last: left !important;
+    }
+    .app_heading{
+        padding-bottom: 30px!important;
+    }
+    .app_item{
+        padding: 30px!important;
+    }
+    .pt_30{
+        padding-top: 0!important;
+    }
+    .fcb_item{
+        margin-bottom: 10px;
+    }
+    .app_item{
+        text-align: center;
+    }
+    .app_item img {
+        height: 50px;
+        
+    }
 }
