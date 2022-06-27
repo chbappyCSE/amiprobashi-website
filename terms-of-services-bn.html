@@ -21,6 +21,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bangla.css">
+    <style>
+        .faqMenu_color .nav-link {
+            color: #000!important;
+            padding-bottom: 0!important;
+        }
+        
+        .faq_main_menu .nav-link {
+            padding: .5rem!important;
+        }
+        
+        .dropdown-item {
+            margin-top: 0!important;
+        }
+        
+        .faqMenu_color .nav-link:hover {
+            color: #157e7d!important;
+        }
+        
+        .dropdown-item:hover {
+            color: #fff;
+            background: #157e7d!important;
+        }
+    </style>
 </head>
 
 <body>
@@ -31,7 +54,7 @@
                 <a class="navbar-brand" href="index-bn.html">
                     <img src="img/logo.png" alt="">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
               <span class="navbar-toggler-icon"></span>
             </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -49,20 +72,10 @@
                                 <li><a class="dropdown-item" href="index-bn.html#app_features">অ্যাপ ফিচারসমূহ </a></li>
                                 <li><a class="dropdown-item" href="index-bn.html#feedback_area">টেস্টিমোনিয়াল </a></li>
                                 <li><a class="dropdown-item" href="index-bn.html#process_area">অভিবাসীর যাত্রা </a></li>
+                                <li><a class="dropdown-item" href="index-bn.html#signup">সাইন আপ</a></li>
                             </ul>
                         </li>
-                        <!-- <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
-               </li> -->
-                        <!-- <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Government Services
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <li><a class="dropdown-item" href="#">Action</a></li>
-                     <li><a class="dropdown-item" href="#">Another action</a></li>
-                  </ul>
-               </li> -->
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                      পোর্টাল অ্যাক্সেস
@@ -74,10 +87,15 @@
                                 <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=bra">রিক্রুটিং এজেন্সি (আরএ)</a></li>
                                 <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=bhc">অ্যাম্বাসি</a></li>
                                 <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=fra">ফরেন এমপ্লোয়ার</a></li>
-                                <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/register">সাইন আপ পদ্ধতি</a></li>
+
                                 <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=bmet">ডেমো</a></li>
                                 <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=bmet">বিআইএমটি</a></li>
+
+                                <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/register">সাইন আপ</a></li>
                             </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="download-bmet.html">বিএমইটি কার্ড</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="faq-bn.html">সচরাচর জিজ্ঞাস্য</a>
@@ -99,6 +117,68 @@
         </nav>
         <!-- Header Content End -->
     </div>
+
+    <!-- Offcanvas Menu Start -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                <a class="navbar-brand" href="index.html">
+                    <img style="height: 70px;" src="img/logo.png" alt="">
+                </a>
+            </h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav flex-column faqMenu_color">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index-bn.html">হোম</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#about" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">আমাদের সম্পর্কে</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="index-bn.html#services">পরিষেবাসমূহ </a></li>
+                        <li><a class="dropdown-item" href="index-bn.html#content_component_area">পোর্টাল ফিচারসমূহ </a></li>
+                        <li><a class="dropdown-item" href="index-bn.html#app_features">অ্যাপ ফিচারসমূহ </a></li>
+                        <li><a class="dropdown-item" href="index-bn.html#feedback_area">টেস্টিমোনিয়াল </a></li>
+                        <li><a class="dropdown-item" href="index-bn.html#process_area">অভিবাসীর যাত্রা </a></li>
+                        <li><a class="dropdown-item" href="index-bn.html#signup">সাইন আপ </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">পোর্টাল অ্যাক্সেস</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=ministry">গভর্নমেন্ট</a></li>
+                        <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=bmet">বিএমইটি</a></li>
+                        <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=ttc">টেকনিক্যাল ট্রেনিং সেন্টার</a></li>
+                        <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=bra">রিক্রুটিং এজেন্সি</a></li>
+                        <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=bhc">অ্যাম্বাসি</a></li>
+                        <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=fra">ফরেন এমপ্লোয়ার</a></li>
+
+                        <li><a class="dropdown-item" href="#">ডেমো</a></li>
+                        <li><a class="dropdown-item" href="#">বিআইএমটি</a></li>
+                        <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/register">সাইন আপ</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="download-bmet.html">বিএমইটি কার্ড</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="faq-bn.html">সচরাচর জিজ্ঞাস্য</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer_area">যোগাযোগ</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">বাংলা</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="refund-policy-bn.html">English</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Offcanvas Menu End -->
+
     <section class="about_area ppabout tos">
         <div class="container">
             <div class="row">

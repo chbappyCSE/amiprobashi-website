@@ -19,6 +19,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .faqMenu_color .nav-link {
+            color: #000!important;
+            padding-bottom: 0!important;
+        }
+        
+        .faq_main_menu .nav-link {
+            padding: .5rem!important;
+        }
+        
+        .dropdown-item {
+            margin-top: 0!important;
+        }
+        
+        .faqMenu_color .nav-link:hover {
+            color: #157e7d!important;
+        }
+        
+        .dropdown-item:hover {
+            color: #fff;
+            background: #157e7d!important;
+        }
+    </style>
 </head>
 
 <body>
@@ -28,7 +51,7 @@
                 <a class="navbar-brand" href="index.html">
                     <img src="img/logo.png" alt="">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                <span class="navbar-toggler-icon"></span>
                </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -46,20 +69,10 @@
                                 <li><a class="dropdown-item" href="index.html#app_features">App Features </a></li>
                                 <li><a class="dropdown-item" href="index.html#feedback_area">Testimonial </a></li>
                                 <li><a class="dropdown-item" href="index.html#process_area">Migrant Journey </a></li>
+                                <li><a class="dropdown-item" href="index.html#signup">Sign Up </a></li>
                             </ul>
                         </li>
-                        <!-- <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                        </li> -->
-                        <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Government Services
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                           <li><a class="dropdown-item" href="#">Action</a></li>
-                           <li><a class="dropdown-item" href="#">Another action</a></li>
-                        </ul>
-                        </li> -->
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Portal Access
@@ -71,10 +84,14 @@
                                 <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=bra">Recruiting Agency (RA)</a></li>
                                 <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=bhc">Embassy</a></li>
                                 <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=fra">Foreign Employer</a></li>
-                                <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/register">How to Sign Up</a></li>
+
                                 <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=bmet">DEMO</a></li>
                                 <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=bmet">BIMT</a></li>
+                                <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/register">Sign Up</a></li>
                             </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="download-bmet.html">BMET Card</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="faq.html">FAQ</a>
@@ -96,6 +113,69 @@
         </nav>
         <!-- Header Content End -->
     </div>
+
+
+    <!-- Offcanvas Menu Start -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                <a class="navbar-brand" href="index.html">
+                    <img style="height: 70px;" src="img/logo.png" alt="">
+                </a>
+            </h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav flex-column faqMenu_color">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#about" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="index.html#services">Services </a></li>
+                        <li><a class="dropdown-item" href="index.html#content_component_area">Portal Features </a></li>
+                        <li><a class="dropdown-item" href="index.html#app_features">App Features </a></li>
+                        <li><a class="dropdown-item" href="index.html#feedback_area">Testimonial </a></li>
+                        <li><a class="dropdown-item" href="index.html#process_area">Migrant Journey </a></li>
+                        <li><a class="dropdown-item" href="index.html#signup">Sign Up </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portal Access</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=ministry">Government</a></li>
+                        <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=bmet">BMET</a></li>
+                        <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=ttc">Technical Training Center  </a></li>
+                        <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=bra">Recruiting Agency (RA)</a></li>
+                        <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=bhc">Embassy</a></li>
+                        <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/login?type=fra">Foreign Employer</a></li>
+
+                        <li><a class="dropdown-item" href="#">DEMO</a></li>
+                        <li><a class="dropdown-item" href="#">BIMT</a></li>
+                        <li><a class="dropdown-item" href="https://moewoe.amiprobashi.com/register">Sign Up</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="download-bmet.html">BMET Card</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="faq.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer_area">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">English</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="privacy-policy-bn.html">বাংলা</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Offcanvas Menu End -->
+
     <section class="about_area ppabout">
         <div class="container">
             <div class="row">
